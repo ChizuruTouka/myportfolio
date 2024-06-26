@@ -1,0 +1,127 @@
+.vcontainer {
+    background-color: rgb(94, 23, 235);
+    height: 60px;
+}
+
+.vcolor {
+    background-color: rgb(94, 23, 235);
+}
+
+.vbtnnavcolor {
+    color: white;
+    background-color: rgb(94, 23, 235);
+}
+
+.vbtnnavcolor:hover {
+    color: white;
+    background-color: rgb(49, 8, 132);
+}
+
+.vbtnnavcolor1 {
+    color: white;
+    background-color: rgb(49, 8, 132);
+}
+
+.vbtnnavcolor1:hover {
+    color: white;
+    background-color: rgb(94, 23, 235);
+}
+
+.vbtntitle {
+    border-color: rgb(94, 23, 235);
+    color: rgb(94, 23, 235);
+}
+
+.vbtntitle:hover {
+    color: white;
+    background-color: rgb(94, 23, 235);
+}
+
+.vtitlep {
+    color: rgb(49, 8, 132);
+}
+
+.vtitlep1 {
+    color: rgb(94, 23, 235);
+}
+
+.vtitlepicture {
+    height: 400px;
+}
+
+.vtitleimgbackground{
+    padding-top: 11%;
+    border-radius: 10%;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(90deg, white 0%,white 35%, rgba(98,47,217,1) 35%, rgba(102,102,255,1) 68%, rgba(0,212,255,1) 100%);
+    z-index: -100;
+}
+
+.veduline {
+    height: 5px;
+    width: auto;
+    background-color: rgb(49, 8, 132);
+    border-radius: 5px;
+}
+
+.veducard {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(94, 23, 235);
+}
+
+.vedubg {
+    background-color: #ededed;
+}
+
+.vskillcenter {
+    align-items: center;
+}
+
+.vskillcolor1 {
+    background-color: rgb(227, 214, 253);
+}
+
+.vskillcolor2 {
+    background-color: rgb(213, 192, 255);
+}
+
+.vskillcolor3 {
+    background-color: rgb(201, 177, 248);
+}
+
+.vfooterbg {
+    background-color: rgb(49, 8, 132);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.aradius {
+    border-radius: 5px;
+}
+
+.acontactsvg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .vtitleimgbackground {
+        width: 400px;
+        padding-left: 14%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 736px) { 
+    .vskilltext {
+        font-size: x-large;
+    }
+
+    .vskilltext1 {
+        font-size: larger;
+    }
+}
