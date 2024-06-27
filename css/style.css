@@ -1,6 +1,29 @@
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+.navbar-toggler {
+    color: rgb(213, 192, 255);
+    border-color: rgb(184, 150, 252);
+}
+
+.elementToFadeInAndOut {
+    opacity: 1;
+    animation: fade 1s ease;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .vcontainer {
     background-color: rgb(94, 23, 235);
     height: 60px;
+}
+
+.vcontainpadding {
+    margin-left: 10%;
 }
 
 .vcolor {
@@ -47,6 +70,7 @@
 
 .vtitlepicture {
     height: 400px;
+    border-radius: 10px;
 }
 
 .vtitleimgbackground{
@@ -83,12 +107,28 @@
     background-color: rgb(227, 214, 253);
 }
 
+.vskillcolor1:hover {
+    background-color: rgb(154, 111, 240);
+}
+
 .vskillcolor2 {
     background-color: rgb(213, 192, 255);
 }
 
+.vskillcolor2:hover {
+    background-color: rgb(154, 111, 240);
+}
+
 .vskillcolor3 {
     background-color: rgb(201, 177, 248);
+}
+
+.vskillcolor3:hover {
+    background-color: rgb(154, 111, 240);
+}
+
+.vskillcolor4 {
+    background-color: rgb(227, 214, 253);
 }
 
 .vfooterbg {
@@ -118,6 +158,9 @@
         padding-left: 14%;
     }
 
+    .vcontainpadding {
+        margin-left: 1%;
+    }
 }
 
 @media only screen and (max-width: 440px) {
@@ -130,6 +173,20 @@
     .vtitlepicture {
         height: 340px;
         width: 250px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .vtitleimgbackground {
+        width: 290px;
+        height: 360px;
+        padding-left: 6%;
+    }
+    
+    .vtitlepicture {
+        height: 300px;
+        width: 210px;
+        margin-left: 8%;
     }
 }
 
